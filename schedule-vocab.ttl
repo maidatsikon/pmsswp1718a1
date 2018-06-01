@@ -1,4 +1,67 @@
 # Το αρχείο Turtle του λεξιλογίου RDFS που περιγράφει
 # τις κλάσεις και τις ιδιότητες του ωρολογίου προγράμματος.
 
+_:b0    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Δευτέρα" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΚΟΜΙΑΝΟΣ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΨΥΧΑΓΩΓΙΚΟ%20ΛΟΓΙΣΜΙΚΟ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Γαληνός> .
+
+_:b1    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Δευτέρα" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΤΣΩΧΟΥ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΑΣΦΑΛΕΙΑ%20ΠΛΗΡΟΦΟΡΙΑΚΩΝ%20ΣΥΣΤΗΜΑΤΩΝ%20> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Γαληνός> .
+
+_:b2    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Τρίτη" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΣΤΕΦΑΝΙΔΑΚΗΣ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΠΡΟΓΡΑΜΑΤΙΣΜΟΣ%20ΣΗΜΑΣΙΟΛΟΓΙΚΟΥ%20ΙΣΤΟΥ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Αρεταίος> .
+
+_:b3    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Τρίτη" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΒΛΑΜΟΣ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΒΙΟΠΛΗΡΟΦΟΡΙΚΗ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Αρεταίος> .
+
+_:b4    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Τετάρτη" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΠΑΤΕΛΗ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΗΛΕΚΤΡΟΝΙΚΗ%20ΕΠΙΧΕΙΡΗΜΑΤΙΚΟΤΗΤΑ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Αρεταίος> .
+
+_:b5    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Τετάρτη" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "21:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΑΥΛΩΝΙΤΗΣ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΠΡΟΣΟΜΟΙΩΣΗ%20ΚΑΙ%20ΜΟΝΤΕΛΟΠΟΙΗΣΗ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Γαληνός> .
+
+_:b6    <http://dilab77.ionio.gr/swp/c17maid/vocab#Ημέρα>  "Πέμπτη" ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Εναρξη>  "15:00:00"^^<http://www.w3.org/2001/XMLSchema#time> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Λήξη>  "18:00:00"^^<http://www.w3.org/2001/XMLSchema#time> .
+
+<http://www.w3.org/1999/02/22-rdf-syntax-ns#type>
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Καθηγητής>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΚΕΡΜΑΝΙΔΟΥ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Μάθημα>  <http://dilab77.ionio.gr/swp/c17maid/resource/ΕΞΟΡΥΞΗ%20ΔΕΔΟΜΕΝΩΝ> ;
+        <http://dilab77.ionio.gr/swp/c17maid/vocab#Αίθουσα>  <http://dilab77.ionio.gr/swp/c17maid/resource/Γαληνός> .
+
 
